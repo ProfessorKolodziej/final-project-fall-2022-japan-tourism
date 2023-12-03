@@ -82,14 +82,17 @@ body {
 	text-align: center;
 	font-family: Khand, sans-serif;
 	font-size: 16px;
+	line-height: 10px;
+	margin-top: 80px;
 }
+
 .kobe-right {
 	display: none;
 }
 .kobe-img {
-	text-align: center;
+	display: flex;
+	justify-content: center;
 }
-
 .kobe-text {
 	display: inline-block;
 	width: calc(100% - 60px);
@@ -137,3 +140,133 @@ body {
 	top:1850px;
 	left: 80px;
 }
+
+.kyoto-heading{
+	color: #03475e;
+	text-align: center;
+	margin-top: 80px;
+	line-height: 10px;
+}
+.kyoto-heading h2{
+	font-family: Khand, sans-serif;
+	font-size: 25px;
+}
+.kyoto-heading h3{
+	font-family: Khand, sans-serif;
+	font-size: 18px;
+}
+.kyoto-right{
+	display: none;
+}
+.kyoto-img1{
+	display: flex;
+	justify-content: center;
+}
+.kyoto-img1 img {
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+}
+.kyoto-text {
+	display: inline-block;
+	width: calc(100% - 60px);
+	text-align: justify;
+	margin: 30px;
+	line-height: 20px;
+	font-size: 13px;
+	font-family: Jost, sans-serif;
+}
+.kyoto-attraction {
+	color: #03475e;
+	text-align: center;
+	font-family: Khand, sans-serif;
+	font-size: 18px;
+	line-height: 10px;
+	margin-top: -20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.kyoto-attraction h3{
+	color:#2F6E9E;
+}
+.kyoto-attraction img {
+	max-width: 100%;
+	height: auto;
+	padding: 20px;
+}
+.kyoto-attraction h4 {
+	font-family: 'Gowun Batang', serif;
+	font-weight: 700;
+	margin: 0px;
+}
+.kyoto-attraction p {
+	text-align: justify;
+   line-height: 1.4;
+	margin: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+.kyoto-attraction1 {
+	background-color: #8FCBD9;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.kyoto-attraction2 {
+	background-color: #8FCBD9;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.kyoto-attraction3 {
+	background-color: #8FCBD9;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.tokyo-heading{
+	color: #03475e;
+	text-align: center;
+	font-family: Khand, sans-serif;
+	font-size: 16px;
+	margin-top: 80px;
+	line-height: 10px;}
+.tokyo-right {
+	display: none;
+}
+.tokyo-text{
+	font-family: 'Paytone One', sans-serif;
+	color:#BF3315;
+	font-size: 12px;
+	text-align: center;
+	margin: 20px;
+	line-height: 20px;
+}
+.tokyo-video {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: #38B0CB;
+	color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 96px;
+	margin-bottom: 30px;
+	font-family: 'Paytone One', sans-serif;
+ }
+
+ .tokyo-video:hover {
+	background-color: #2980b9;
+ }
+ .tokyo-img1{
+	display: flex;
+	justify-content: center;
+}
+.tokyo-img1 img {
+	max-width: 310px;
+	width: 100%;
+	height: auto;}
