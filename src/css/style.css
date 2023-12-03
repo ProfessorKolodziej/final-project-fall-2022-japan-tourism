@@ -1,10 +1,11 @@
 body {
 	background-color: #D0E6EB;
+	margin: 0px;
 }
 
 .banner-nav {
 	width: 100%;
-	height: 50px;
+	height: 60px;
 	background: #03475e;
 	display: flex;
 	padding: 0px 30px 0px 30px;
