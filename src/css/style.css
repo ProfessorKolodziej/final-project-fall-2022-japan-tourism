@@ -258,7 +258,6 @@ body {
 	margin-bottom: 30px;
 	font-family: 'Paytone One', sans-serif;
  }
-
  .tokyo-video:hover {
 	background-color: #2980b9;
  }
@@ -270,3 +269,49 @@ body {
 	max-width: 310px;
 	width: 100%;
 	height: auto;}
+.tokyo-information{
+	text-align: center;
+	margin-top: 30px;
+}
+.Station3_btn2 {
+	display: inline-block;
+	width: 300px;
+	height: 25px;
+	padding: 10px 20px;
+	background-color: #50A3BD;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 10px;
+   text-align: center;
+	line-height: 15px;
+	font-family: Jost, sans-serif;
+	font-size: 12px;
+}
+.Station3_btn2:hover {
+	background-color: #38B0CB;
+}
+
+.ending {
+	position: relative;
+	text-align: center;
+	background-image: url("/Users/irislee/Documents/final-project-fall-2022-japan-tourism/src/images/ending img.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+ }
+
+ .ending p {
+	position: absolute;
+	top: 180px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin: 0;
+	font-family: Lobster, sans-serif;
+	font-size: 18px;
+	color: #A02525;
+ }
