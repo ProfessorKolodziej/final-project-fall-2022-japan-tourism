@@ -1,0 +1,58 @@
+body {
+	background-color: #FFF8E7;
+}
+.heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #CA5E30;
+}
+.heading h1 {
+	font-family: Khand, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #fff;
+}
+
+ .eatingkobe h2 {
+	font-family: Jost, sans-serif;
+	font-weight: 300;
+	color: #000000;
+	font-size: 20px;
+ }
+ .eatingkobe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+ }
+
+ .eatingkobe section {
+	text-align: center;
+	margin: 0px;
+ }
+
+ .eatingkobe img {
+	max-width: 80%;
+	height: auto;
+ }
+ .button {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+ }
+
+ .button a {
+	display: inline-block;
+	padding: 5px 30px;
+	background-color: #CA5E30;
+	color: #fff;
+	border-radius: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: Khand, sans-serif;
+	font-weight: 700;
+ }
+
