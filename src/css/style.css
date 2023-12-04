@@ -16,18 +16,21 @@ body {
 	font-family: Khand, sans-serif;
 	font-size: 18px;
 	}
-.banner {
-	height: 400px;
-	background-image: url("/Users/irislee/Documents/final-project-fall-2022-japan-tourism/src/images/landscape.png");
-	background-size: 100% 100%;
-	position: relative;
- }
+.banner-img {
+	text-align: center;
+}
+.banner-img img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
 .banner-text {
 	text-align: right;
 	position: absolute;
 	right: 30px;
-	top: 80px;
+	top: 90px;
 	font-family: Khand, sans-serif;
+	line-height: 10px;
  }
 .banner-text h1 {
 	color: #b03e0a;
@@ -48,14 +51,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	top: 300px;
-	z-index: 2;
+	margin-top: -10px;
 }
-
 .japanintro {
 	margin: 30px;
 }
-
 .intro-right {
 	margin: 80px auto 0;
 	text-align: center;
@@ -77,6 +77,44 @@ body {
 	font-size: 13px;
 	font-family: Jost, sans-serif;
 }
+.quiz {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+ }
+.quiz h1{
+	font-family: Khand, sans-serif;
+	color:#1F6176;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.quiz h2{
+   font-family: Jost, sans-serif;
+	color:black;
+	font-size: 13px;
+	margin-top: 0px;
+}
+.quiz form{
+   font-family: Jost, sans-serif;
+	color:black;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.quiz button {
+	font-family: Jost, sans-serif;
+	background-color: #1F6176;
+	color: white;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-top: 20px;
+ }
+
 
 .kobe-heading {
 	color: #03475e;
@@ -84,9 +122,8 @@ body {
 	font-family: Khand, sans-serif;
 	font-size: 16px;
 	line-height: 10px;
-	margin-top: 80px;
+	margin-top: 70px;
 }
-
 .kobe-right {
 	display: none;
 }
@@ -104,7 +141,17 @@ body {
 	font-family: Jost, sans-serif;
 }
 .kobe-informationmap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	text-align: center;
+	margin-top: -20px;
+}
+.kobe-informationmap img {
+	margin-top: -50px;
+	width: 100%;
+	height: auto;
 }
 .kobe-informationmap h3 {
 	font-family: Khand, sans-serif;
@@ -123,7 +170,7 @@ body {
 	border: 0px;
 	font-weight: bold;
 	position: absolute;
-	top:1800px;
+	top:1930px;
 	right: 80px;
 }
 .kobe-button2 {
@@ -138,14 +185,14 @@ body {
 	border: 0px;
 	font-weight: bold;
 	position: absolute;
-	top:1850px;
+	top:2000px;
 	left: 80px;
 }
 
 .kyoto-heading{
 	color: #03475e;
 	text-align: center;
-	margin-top: 80px;
+	margin-top: 10px;
 	line-height: 10px;
 }
 .kyoto-heading h2{
