@@ -44,3 +44,24 @@ body{
 	font-family: Khand, sans-serif;
 	font-weight: 700;
  }
+ /* This is tablet */
+ @media (width >=843px) {
+	.foodinformation1 img,
+   .foodinformation2 img {
+    width: 80%;
+    height: auto;
+   }
+	.button a {
+		padding: 5px 45px;
+		line-height: 1.3;
+		font-size: 18px;
+	 }
+ }
+/* This is laptop */
+@media (width >=1200px) {
+
+	.button a {
+      margin-top: 50px;
+		margin-bottom: 30px;
+	 }
+}

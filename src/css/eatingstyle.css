@@ -57,3 +57,14 @@ body {
 	font-weight: 700;
  }
 
+/* This is tablet */
+@media (width >=843px) {
+ .heading {
+    margin-bottom: 30px;
+ }
+ .button a {
+	padding: 9px 35px;
+	line-height: 1;
+	font-size: 18px;
+ }
+}

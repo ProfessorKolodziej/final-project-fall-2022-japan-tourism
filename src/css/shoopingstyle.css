@@ -49,5 +49,47 @@ body{
 	font-family: Khand, sans-serif;
 	font-weight: 700;
  }
-
-
+ /* This is tablet */
+ @media (width >=843px) {
+	.tokyoshopping h1{
+		font-size: 32px;
+		line-height: 15px;
+		margin-top: 60px;
+	 }
+	 .tokyoshopping h2{
+		font-size: 32px;
+		margin-bottom: 60px;
+	 }
+	 .tokyoshopping p {
+		margin: 20px 80px;
+		font-size: 16px;
+	 }
+	 .shopping.img {
+		text-align: center;
+		margin-top: 30px;
+	 }
+	 .shopping.img img {
+		width: 80%;
+		height: auto;
+	 }
+	.button a {
+		padding: 5px 45px;
+		line-height: 1.3;
+		font-size: 18px;
+	 }
+}
+/* This is laptop */
+@media (width >=1200px) {
+	.tokyoshopping p {
+		margin: 20px 200px;
+		font-size: 16px;
+	}
+	.shopping.img img {
+		width: 70%;
+		height: auto;
+	 }
+	.button a {
+      margin-top: 50px;
+		margin-bottom: 30px;
+	}
+}

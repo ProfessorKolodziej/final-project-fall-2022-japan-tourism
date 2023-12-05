@@ -7,7 +7,7 @@ body{
 	height: 60px;
 	background: #03475e;
 	display: flex;
-	padding: 0px 30px 0px 30px;
+	padding: 0px 70px 0px 70px;
 	box-sizing: border-box;
 	justify-content: space-between;
 	align-items: center;
@@ -61,3 +61,68 @@ body{
 	color: #fff;
  }
 
+/* This is tablet */
+@media (width >=843px) {
+	.banner-nav {
+		padding: 0px 100px 0px 100px;
+		font-size: 25px;
+	}
+	.events-heading{
+		font-size: 25px;
+		margin-top: 60px;
+	}
+   .events1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		color: white;
+		width: 100%;
+		margin-left: 60px;
+		margin-top: 60px;
+		text-align: center;
+   }
+   .events img {
+		width: 30%;
+		height: auto;
+		margin-left: 60px;
+   }
+  .events ul {
+		padding: 0;
+		margin: 0;
+		width: 50%;
+		text-align: center;
+   }
+  .events ul li {
+		font-size: 18px;
+		margin-bottom: 10px;
+		text-align: left;
+   }
+	.events-ending {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.events-ending p {
+		font-size: 24px;
+	}
+}
+/* This is laptop */
+@media (width >=1200px) {
+	.banner-nav {
+		padding: 40px 100px 40px 100px;
+		font-size: 30px;
+	}
+	.events-heading{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	.events1 {
+		margin-left: 100px;
+   }
+   .events img {
+		width: 30%;
+   }
+  .events ul li {
+		font-size: 24px;
+   }
+}

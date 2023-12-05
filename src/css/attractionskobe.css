@@ -32,19 +32,19 @@ body {
 	font-size: 13px;
 	line-height: 20px;
  }
- .attraction.list ol {
+.attraction.list ol {
 	padding-left: 20px;
  }
- .attraction.list li {
+.attraction.list li {
 	margin-bottom: 30px;
 	text-align: left;
- }
- .button {
+}
+.button {
 	display: flex;
 	justify-content: center;
 	margin: 30px 0;
- }
- .button a {
+}
+.button a {
 	display: inline-block;
 	padding: 5px 30px;
 	background-color: #CA5E30;
@@ -56,4 +56,32 @@ body {
 	font-size: 16px;
 	font-family: Khand, sans-serif;
 	font-weight: 700;
- }
+}
+
+ /* This is tablet */
+@media (width >=843px) {
+	.attraction.list {
+		margin: 60px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.button a {
+		padding: 9px 35px;
+		line-height: 1;
+		font-size: 18px;
+	}
+}
+
+/* This is laptop */
+@media (width >=1200px) {
+	.attraction.list {
+		margin: 60px 180px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+	.button a {
+		padding: 9px 35px;
+		line-height: 1;
+		font-size: 18px;
+	}
+}
