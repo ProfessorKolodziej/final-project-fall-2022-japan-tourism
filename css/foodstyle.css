@@ -1,0 +1,67 @@
+body{
+	background-color: #EDD3CD;
+	margin: 0px;
+}
+.foodimg {
+	text-align: center;
+ }
+ .foodimg img {
+	max-width: 100%;
+	height: auto;
+}
+.foodinformation1,
+.foodinformation2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px; }
+.foodinformation1{
+	margin-top: 20px;
+}
+.foodinformation2{
+	margin-bottom: 20px;
+}
+.foodinformation1 img,
+.foodinformation2 img {
+  max-width: 100%;
+  height: auto;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+ }
+ .button a {
+	display: inline-block;
+	padding: 2px 40px;
+	background-color: #F56565;
+	color: #fff;
+	border-radius: 30px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: Khand, sans-serif;
+	font-weight: 700;
+ }
+ /* This is tablet */
+ @media (width >=843px) {
+	.foodinformation1 img,
+   .foodinformation2 img {
+    width: 80%;
+    height: auto;
+   }
+	.button a {
+		padding: 5px 45px;
+		line-height: 1.3;
+		font-size: 18px;
+	 }
+ }
+/* This is laptop */
+@media (width >=1200px) {
+
+	.button a {
+      margin-top: 50px;
+		margin-bottom: 30px;
+	 }
+}

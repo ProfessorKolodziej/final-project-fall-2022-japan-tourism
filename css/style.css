@@ -1,0 +1,851 @@
+body {
+	background-color: #D0E6EB;
+	margin: 0px;
+}
+
+.banner-nav {
+	width: 100%;
+	height: 60px;
+	background: #03475e;
+	display: flex;
+	padding: 0px 30px 0px 30px;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-family: Khand, sans-serif;
+	font-size: 18px;
+	}
+.banner-img {
+	text-align: center;
+}
+.banner-img img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+.banner-text {
+	text-align: right;
+	position: absolute;
+	right: 30px;
+	top: 90px;
+	font-family: Khand, sans-serif;
+	line-height: 10px;
+ }
+.banner-text h1 {
+	color: #b03e0a;
+	font-size:40px;
+}
+.banner-text p {
+	color: white;
+	font-size: 17px;
+}
+
+.banner-scroll {
+	font-family: Jost, sans-serif;
+	color: white;
+	width: 100%;
+	height: 50px;
+	background: #df7442;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-top: -10px;
+}
+.japanintro {
+	margin: 30px;
+}
+.intro-right {
+	text-align: center;
+	z-index: 1;
+}
+.intro-right img{
+	width: 80%;
+	margin-bottom: 0px;
+}
+.intro-text h2{
+	color: #03475e;
+	font-size: 30px;
+	font-family: Khand, sans-serif;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.intro-text p{
+	display: inline-block;
+	width: 100%;
+	text-align: justify;
+	margin-bottom: 10px;
+	line-height: 20px;
+	font-size: 13px;
+	font-family: Jost, sans-serif;
+}
+.quiz {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+ }
+.quiz h1{
+	font-family: Khand, sans-serif;
+	color:#1F6176;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.quiz h2{
+   font-family: Jost, sans-serif;
+	color:black;
+	font-size: 13px;
+	margin-top: 0px;
+}
+.quiz form{
+   font-family: Jost, sans-serif;
+	color:black;
+	font-size: 13px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.quiz button {
+	font-family: Jost, sans-serif;
+	background-color: #1F6176;
+	color: white;
+	border: none;
+	padding: 5px 20px;
+	border-radius: 20px;
+	font-size: 14px;
+	margin-top: 20px;
+ }
+
+
+.kobe-heading {
+	color: #03475e;
+	text-align: center;
+	font-family: Khand, sans-serif;
+	font-size: 16px;
+	line-height: 10px;
+	margin-top: 70px;
+}
+.kobe-right-container {
+	display: none;
+}
+.kobe-img {
+	display: flex;
+	justify-content: center;
+}
+.kobe-img img{
+	width: 100%;
+}
+.kobe-text {
+	display: inline-block;
+	width: calc(100% - 60px);
+	text-align: justify;
+	margin: 30px;
+	line-height: 20px;
+	font-size: 13px;
+	font-family: Jost, sans-serif;
+}
+.kobe-informationmap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: -20px;
+}
+.kobe-informationmap img {
+	margin-top: -50px;
+	width: 100%;
+	height: auto;
+}
+.kobe-informationmap h3 {
+	font-family: Khand, sans-serif;
+	font-size: 16px;
+	color:#DE6044;
+}
+.kobe-button1 {
+	font-family: Khand, sans-serif;
+	color: white;
+	font-size: 13px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	background: #df7442;
+	border: 0px;
+	font-weight: bold;
+	position: absolute;
+	top:2070px;
+	right: 80px;
+}
+.kobe-button2 {
+	font-family: Khand, sans-serif;
+	color: white;
+	font-size: 13px;
+	width: 80px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	background: #df7442;
+	border: 0px;
+	font-weight: bold;
+	position: absolute;
+	top:2130px;
+	left: 80px;
+}
+.kyoto-heading{
+	color: #03475e;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 10px;
+}
+.kyoto-heading h2{
+	font-family: Khand, sans-serif;
+	font-size: 25px;
+}
+.kyoto-heading h3{
+	font-family: Khand, sans-serif;
+	font-size: 18px;
+}
+.kyoto-right-container{
+	display: none;
+}
+.kyoto-img1-container {
+	display: flex;
+	justify-content: center;
+}
+.kyoto-img1-container img {
+	max-width: 85%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+.kyoto-text {
+	display: inline-block;
+	width: calc(100% - 60px);
+	text-align: justify;
+	margin: 30px;
+	line-height: 20px;
+	font-size: 13px;
+	font-family: Jost, sans-serif;
+}
+.kyoto-attraction-heading h3{
+	color:#2F6E9E;
+	font-family: Khand, sans-serif;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 0px;
+}
+.kyoto-attraction {
+	color: #03475e;
+	text-align: center;
+	font-family: Khand, sans-serif;
+	font-size: 18px;
+	line-height: 10px;
+	margin-top: -20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.kyoto-attraction img {
+	max-width: 100%;
+	height: auto;
+	padding: 20px;
+}
+.kyoto-attraction h4 {
+	font-family: 'Gowun Batang', serif;
+	font-weight: 700;
+	margin: 0px;
+}
+.kyoto-attraction p {
+	text-align: justify;
+   line-height: 1.4;
+	margin: 20px;
+	font-family: 'Gowun Batang', serif;
+	font-size: 13px;
+	font-weight: 400;
+}
+.kyoto-attraction1 {
+	background-color: #8FCBD9;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.kyoto-attraction2 {
+	background-color: #8FCBD9;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.kyoto-attraction3 {
+	background-color: #8FCBD9;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.tokyo-heading{
+	color: #03475e;
+	text-align: center;
+	font-family: Khand, sans-serif;
+	font-size: 16px;
+	margin-top: 80px;
+	line-height: 10px;}
+.tokyo-right-container {
+	display: none;
+}
+.tokyo-text{
+	font-family: 'Paytone One', sans-serif;
+	color:#BF3315;
+	font-size: 12px;
+	text-align: center;
+	margin: 20px;
+	line-height: 20px;
+}
+.tokyo-video {
+	text-align: center;
+}
+ .tokyo-video a {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #38B0CB;
+	color: #fff;
+	border-radius: 25px;
+	text-decoration: none;
+	margin-bottom: 30px;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 12px;
+ }
+ .tokyo-video a:hover {
+	background-color: #2980b9;
+ }
+ .tokyo-img1{
+	display: flex;
+	justify-content: center;
+}
+.tokyo-img1 img {
+	max-width: 310px;
+	width: 100%;
+	height: auto;}
+.tokyo-information {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.Station3_btn2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 25px;
+	padding: 10px 20px;
+	background-color: #50A3BD;
+	color: #fff;
+	border-radius: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 20px;
+   text-align: center;
+	line-height: 15px;
+	font-family: Jost, sans-serif;
+	font-size: 12px;
+}
+.Station3_btn2:hover {
+	background-color: #38B0CB;
+}
+.ending {
+	position: relative;
+	text-align: center;
+	background-image: url("/Users/irislee/Documents/final-project-fall-2022-japan-tourism/src/images/ending img.png");
+	background-position: center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+ }
+ .ending h2 {
+	font-family: Lobster, sans-serif;
+	font-size: 16px;
+	color: #A02525;
+	text-align: center;
+	line-height: 0px;
+	margin-bottom: 0;
+ }
+
+/* This is tablet */
+@media (width >=843px) {
+	.banner-nav {
+		height: 80px;
+		padding: 0px 90px 0px 90px;
+	}
+	.banner-text {
+		right: 90px;
+		top: 200px;
+		line-height: 10px;
+	}
+	.banner-text h1 {
+		color: #b03e0a;
+		font-size:70px;
+	}
+	.banner-text p {
+		color: white;
+		font-size: 25px;
+	}
+   .banner-scroll {
+		height: 70px;
+		font-size: 20px;
+	}
+   .japanintro {
+		background-color: #4F8FAB;
+		display: flex;
+		align-items: center;
+  }
+   .intro-text {
+	  flex: 1;
+	  padding: 30px;
+	  color: #fff;
+   }
+   .intro-text h2 {
+     font-size: 35px;
+     margin: 0px;
+   }
+   .intro-text p {
+	 font-size: 17px;
+	 margin: 10px;
+	 line-height: 20px;
+   }
+   .intro-right {
+	 flex: 1;
+   }
+   .intro-right img {
+	 width: 70%;
+	 height: auto;
+	 max-width: 100%;
+	 max-height: 100%;
+   }
+	.quiz {
+		width: 80%;
+	}
+	.quiz h1{
+		font-size: 30px;
+	}
+	.quiz h2{
+		font-size: 20px;
+	}
+	.quiz form{
+		font-size: 20px;
+	}
+	.quiz button {
+		padding: 8px 30px;
+		border-radius: 25px;
+		font-size: 17px;
+	}
+	.heading-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0px;
+		align-items: center;
+		margin-top: 30px;
+   }
+   .kobe-heading {
+		font-size: 18px;
+		margin-left: 50px;
+   }
+   .kobe-img {
+		margin-top: 40px;
+		margin-right: 20px;
+   }
+   .kobe-img img {
+		max-width: 100%;
+		height: auto;
+   }
+	.kobe-right-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0px;
+		align-items: center;
+		color: #BA3B19;
+		font-family: Jost, sans-serif;
+		font-size: 12px;
+		margin-top: 30px;
+   }
+   .kobe-right-container img {
+		width: 40%;
+		height: auto;
+		display: block;
+		margin-left: 200px;
+   }
+   .koberight-inner {
+		line-height: 5px;
+		margin-right: 200px;
+	   text-align: center;
+   }
+	.kobe-text {
+		width: calc(100% - 120px);
+		margin: 30px 60px;
+		font-size: 18px;
+		margin-bottom: 50px;
+   }
+	.kobe-informationmap img {
+		margin-top: -70px;
+		width: 50%;
+	}
+	.kobe-informationmap h3 {
+		font-size: 20px;
+	}
+	.kobe-button1 {
+		font-size: 15px;
+		width: 90px;
+		line-height: 30px;
+		top:2280px;
+		right: 300px;
+	}
+	.kobe-button2 {
+		font-size: 15px;
+		width: 90px;
+		line-height: 30px;
+		top:2390px;
+		left: 350px;
+	}
+	.kyoto-heading h2{
+		font-size: 34px;
+	}
+	.kyoto-heading h3{
+		font-size: 27px;
+	}
+	.kyoto-img1-container {
+		align-items: center;
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+   }
+  .kyoto-img1-container img {
+		padding: 0;
+   }
+   .kyoto-text {
+	  width: calc(100% - 130px);
+	  margin: 30px 65px;
+	  font-size: 17px;
+	  line-height: 23px;
+   }
+   .kyoto-attraction {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  gap: 0px;
+	  background-color: #8FCBD9;
+	  color: black;
+	  padding: 20px;
+	  margin: 60px;
+   }
+	.kyoto-attraction-heading {
+     margin-bottom: -50px;
+	}
+	.kyoto-attraction-heading h3{
+		font-size: 30px;
+	}
+   .kyoto-attraction section {
+	  display: grid;
+	  grid-template-columns: auto 1fr;
+	  gap: 20px;
+	  align-items: center;
+	  margin: 0 30px;
+   }
+   .kyoto-attraction img {
+	  max-width: 100%;
+	  height: auto;
+   }
+   .kyoto-attraction h4 {
+	 margin: 0 0 10px;
+   }
+    .kyoto-attraction p {
+	 margin: 0;
+	}
+	.tokyo-heading{
+		font-size: 25px;
+		margin-top: 150px;
+		margin-bottom: 60px;
+	}
+	.tokyo-right-container {
+		display: none;
+	}
+	.tokyo-text{
+		font-size: 16px;
+		text-align: center;
+		margin: 40px;
+		line-height: 16px;
+	}
+	.tokyo-img1{
+		display: flex;
+		justify-content: center;
+	}
+	.tokyo-img1 img {
+		max-width: 80%;
+	}
+	.tokyo-information {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+   }
+	.tokyo-video a {
+		padding: 10px 20px;
+		margin-bottom: 60px;
+		font-size: 19px;
+	 }
+   .Station3_btn2 {
+		width: 500px;
+		height: 40px;
+		padding: 10px 20px;
+		font-size: 18px;
+		line-height: 20px;
+   }
+	.ending {
+		background-size: 60%;
+		height: 300px;
+		margin-top: 80px;
+	 }
+	 .ending h2 {
+		font-size: 24px;
+	 }
+}
+
+/* This is laptop */
+@media (width >=1200px) {
+	.banner-nav {
+		height: 90px;
+		font-size: 30px;
+	}
+	.banner-img img {
+		width: 100%;
+	}
+	.banner-text {
+		right: 130px;
+		top: 300px;
+		line-height: 10px;
+	}
+	.banner-text h1 {
+		color: #b03e0a;
+		font-size:100px;
+	}
+	.banner-text p {
+		color: white;
+		font-size: 50px;
+	}
+	.japanintro {
+		background-color: #1F6176;
+		margin: 0px;
+  }
+   .intro-text {
+	  padding: 50px;
+	  color: #fff;
+	  margin: 30px 50px;
+   }
+   .intro-text h2 {
+     font-size: 35px;
+	  color: #fff;
+   }
+   .intro-text p {
+	 font-size: 19px;
+	 line-height: 24px;
+   }
+   .intro-right img {
+	 width: 50%;
+	 height: auto;
+	 max-width: 100%;
+	 max-height: 100%;
+   }
+	.quiz {
+		margin-top: 35px;
+	}
+   .quiz h1{
+		font-size: 28px;
+	}
+	.quiz h2{
+		font-size: 25px;
+	}
+	.quiz form{
+		font-size: 22px;
+	}
+	.quiz button {
+		padding: 8px 30px;
+		border-radius: 25px;
+		font-size: 19px;
+	}
+	.heading-container {
+		display:block;
+		background-color: #1F6176;
+		align-items: center;
+   }
+	.kobe-heading {
+		font-size: 22px;
+		margin-left: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	 }
+
+	 .kobe-heading h2 {
+		color: #fff;
+		margin-top: 10px;
+	 }
+	 .kobe-img {
+		display: none
+	 }
+	.kobe-right-container{
+		background-color: #1F6176;
+		margin: 0px;
+		padding-bottom: 20px;
+		color: #fff;
+		font-size: 16px;
+   }
+   .kobe-right-container img {
+		width: 40%;
+		margin-left: 300px;
+   }
+	.kobe-text {
+		width: calc(100% - 400px);
+		margin: 30px 200px;
+		font-size: 17px;
+		margin-bottom: 50px;
+		line-height: 30px;
+   }
+	.kobe-informationmap h3 {
+		font-size: 35px;
+		margin-bottom: 30px;
+	}
+	.kobe-button1 {
+		font-size: 23px;
+		width: 120px;
+		line-height: 40px;
+		top:2900px;
+		right: 400px;
+	}
+	.kobe-button2 {
+		font-size: 23px;
+		width: 120px;
+		line-height: 40px;
+		top:3100px;
+		left: 470px;
+	}
+	.kyoto-heading{
+		background-color: #1F6176;
+		color: #fff;
+	}
+	.kyoto-heading h2{
+		font-size: 39px;
+		padding-top: 40px;
+	}
+	.kyoto-heading h3{
+		font-size: 29px;
+		padding-bottom: 30px;
+		margin-bottom: 0px;
+	}
+	.kyoto-right-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0px;
+		align-items: center;
+		font-family: Jost, sans-serif;
+		font-size: 18px;
+		margin-top: 0px;
+		color: #fff;
+		background-color: #1F6176;
+		padding-bottom: 20px;
+   }
+   .kyoto-right-container img {
+		width: 40%;
+		height: auto;
+		display: block;
+		margin-left: 200px;
+   }
+   .kyotoright-inner {
+		line-height: 5px;
+		margin-right: 200px;
+	   text-align: center;
+   }
+	.kyoto-img1-container {
+		margin-top: 30px;
+   }
+   .kyoto-text {
+	  width: calc(100% - 400px);
+	  margin: 30px 200px;
+	  font-size: 17px;
+	  line-height: 25px;
+   }
+	.kyoto-attraction {
+		margin: 20px 200px;
+	 }
+	 .kyoto-attraction-heading {
+		margin-top: 20px;
+		margin-bottom: 0px;
+	 }
+	 .kyoto-attraction-heading h3{
+		font-size: 33px;
+	 }
+	 .kyoto-attraction section {
+		margin: 0 50px;
+	 }
+	 .kyoto-attraction h4 {
+		font-size: 20px;
+	   margin: 0 0 10px;
+	 }
+	  .kyoto-attraction p {
+		font-size: 14px;
+	   margin: 0;
+	 }
+	 .tokyo-heading{
+		font-size: 27px;
+		background-color: #1F6176;
+		padding: 30px;
+		color: #fff;
+		margin-bottom: 0px;
+	}
+	.tokyo-right-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0px;
+		align-items: center;
+		font-family: Jost, sans-serif;
+		font-size: 18px;
+		margin-top: 0px;
+		color: #fff;
+		background-color: #1F6176;
+		padding-bottom: 20px;
+   }
+   .tokyo-right-container img {
+		width: 40%;
+		height: auto;
+		display: block;
+		margin-left: 200px;
+   }
+   .tokyoright-inner {
+		line-height: 5px;
+		margin-right: 200px;
+	   text-align: center;
+   }
+	.tokyo-text{
+		font-size: 20px;
+		margin-top: 90px;
+		margin-bottom: 50px;
+		line-height: 20px;
+	}
+	.tokyo-img1 img {
+		max-width: 70%;
+	}
+	.Station3_btn2 {
+		width: 600px;
+		font-size: 20px;
+   }
+	 .ending {
+		background-size: 40%;
+		height: 300px;
+		margin-top: 90px;
+	 }
+	 .ending h2 {
+		font-size: 28px;
+	 }
+ }
+
