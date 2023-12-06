@@ -359,7 +359,7 @@ body {
 .ending {
 	position: relative;
 	text-align: center;
-	background-image: url("images/ending img.png");
+	background-image: url("src/images/ending img.png");
 	background-position: center;
 	background-size: 80%;
 	background-repeat: no-repeat;
