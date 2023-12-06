@@ -359,7 +359,7 @@ body {
 .ending {
 	position: relative;
 	text-align: center;
-	background-image: url("/Users/irislee/Documents/final-project-fall-2022-japan-tourism/src/images/ending img.png");
+	background-image: url("images/ending img.png");
 	background-position: center;
 	background-size: 80%;
 	background-repeat: no-repeat;
