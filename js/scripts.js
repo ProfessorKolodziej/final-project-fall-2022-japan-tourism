@@ -36,3 +36,4 @@ function checkAnswer() {
 	feedback.style.marginTop = '10px';
  }
 }
+// Ask ChatGPT how to display " Unfortunately, the correct answer is C" when the user selects the wrong answer.
